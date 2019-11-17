@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb\Session;
+<?php namespace Omt\Mongodb\Session;
 
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\MongoDbSessionHandler;
 

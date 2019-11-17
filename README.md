@@ -6,15 +6,15 @@ A MongoDB session driver for Laravel 4, inspired by LMongo. For more information
 Installation
 ------------
 
-Make sure you have [jenssegers\mongodb](https://github.com/jenssegers/Laravel-MongoDB) installed before you continue.
+Make sure you have [omt\mongodb](https://github.com/maoht87/MongoDB) installed before you continue.
 
 Install using composer:
 
-    composer require jenssegers/mongodb-session
+    composer require omt/mongodb-session
 
 Add the session service provider in `app/config/app.php`:
 
-    'Jenssegers\Mongodb\Session\SessionServiceProvider',
+    'OMT\Mongodb\Session\SessionServiceProvider',
 
 Change the session driver in `app/config/session.php` to mongodb:
 
